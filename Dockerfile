@@ -1,5 +1,5 @@
 # Docker image
-FROM python3:3.7-alpine
+FROM python:3.7-alpine
 # Add maintainer
 LABEL maintainer="Boris Nieto"
 # Enviroment variable that prevents python-docker outputs problems
