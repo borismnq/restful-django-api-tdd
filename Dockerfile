@@ -10,7 +10,7 @@ RUN pip install -r /requirements.txt
 # Create and set default app folder
 RUN mkdir /app
 WORKDIR /app
-COPY . .
+COPY ./app /app
 # Creating user and use it 
 RUN adduser -D user
 USER user
