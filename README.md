@@ -1,2 +1,19 @@
 # restful-django-api-tdd
-Backend API using RESTFUL Django framework and using Test Driven Development
+
+Backend API using RESTFUL Django framework and Test Driven Development
+
+
+# Run project
+  ```bash
+  docker-compose build
+  ```
+
+  ```bash
+  docker-compose up
+  ```
+  
+# Run tests and flake8 validations
+  ```bash
+  docker-compose run app sh -c "python manage.py test && flake8"
+  ```
+
